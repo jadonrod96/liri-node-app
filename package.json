@@ -1,0 +1,31 @@
+{
+    "name": "liri",
+    "version": "1.0.0",
+    "description": "command line node app to make api calls and retrieve information about music, movies and concerts",
+    "main": "liri.js",
+    "dependencies": {
+      "request": "^2.79.0",
+      "spotify": "^0.3.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "test": "node liri do-what-it-says"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jadonrod96/liri-node-app.git"
+    },
+    "keywords": [
+      "CLI",
+      "node.js",
+      "api",
+      "spotify",
+      "omdb"
+    ],
+    "author": "Jadon Rodriguez",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/jadonrod96/liri-node-app/issues"
+    },
+    "homepage": "https://github.com/jadonrod96/liri-node-app#readme"
+  }
